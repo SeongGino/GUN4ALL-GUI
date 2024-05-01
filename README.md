@@ -18,12 +18,12 @@ Boards flashed with IR-GUN4ALL v4.0 (*L.G.A Force*) and up *must be plugged in *
 ### For Linux:
 ##### Requirements: Anything with QT5 support.
  - Arch Linux: Install `gun4all-gui` [from the AUR.](https://aur.archlinux.org/packages/gun4all-gui)
- - Other distros: Try the latest binary (built for Ubuntu 20.04 LTS, but should work for most distros?)
- - Make sure your user is part of the `dialout` group (`# usermod -a -G dialout insertusernamehere`)
+ - Other distros: [Try the latest binary](https://github.com/SeongGino/GUN4ALL-GUI/releases/latest) *(-ubuntu, built for Ubuntu 20.04 LTS, but should work for most distros?)*
+ - Make sure your user is part of the `dialout` group (`# usermod -a -G dialout insertusernamehere`); the app will advise this on startup if not.
 
 ### For Windows:
 ##### Requirements: Windows 7 and up (64-bit only).
- - Download the latest release zip.
+ - [Download the latest release zip](https://github.com/SeongGino/GUN4ALL-GUI/releases/latest) *(-win64.zip)*
  - Extract the `G4A-GUI` folder from the archive to anywhere that's most convenient on your system - `G4A-GUI.exe` should be sitting next to `Qt5Core.dll` and others, as well as the `platforms` and `styles` folders.
  - Start `G4A-GUI.exe`
 
